@@ -1,0 +1,15 @@
+://williampos-3f06192ea47f.herokuapp.com/api/coredrinks net::ERR_FAILED 503 (Service Unavailable)
+apiRequest @ menu.js:668
+(anonymous) @ menu.js:1428
+menu.js:681 TypeError: Failed to fetch
+    at apiRequest (menu.js:668:32)
+    at menu.js:1428:5
+pos:1  Access to fetch at 'http://localhost:8000/api/customers' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+menu.js:1450 
+        
+        
+        GET http://localhost:8000/api/customers net::ERR_FAILED 503 (Service Unavailable)
+apiRequestCustomer @ menu.js:1450
+(anonymous) @ menu.js:1429
+menu.js:1461 TypeError: Failed to fetch
+    at apiRequestCustomer (menu.js:1450:32)
